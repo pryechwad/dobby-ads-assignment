@@ -14,7 +14,7 @@ A Google Drive-inspired ad asset manager with nested folders, image uploads, and
 - [Environment Variables](#environment-variables)
 - [API Reference](#api-reference)
 - [Features](#features)
-- [Test Credentials](#test-credentials)
+
 
 ---
 
@@ -149,13 +149,4 @@ Located at `backend/.env`:
 
 ---
 
-## Test Credentials
 
-Create an account on the Signup page using any credentials, or use the following after signing up:
-
-```
-Email:    test@dobby.com
-Password: test1234
-```
-
-> Note: The account must be created via the Signup page before it can be used to log in.
