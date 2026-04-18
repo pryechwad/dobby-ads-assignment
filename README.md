@@ -1,6 +1,6 @@
-# Dobby Ads
+# Dobby Ads - Full Stack Assignment
 
-A Google Drive-inspired ad asset manager with nested folders, image uploads, and per-user data isolation.
+An ad asset manager with nested folders, image uploads, and per-user data isolation.
 
 ---
 
@@ -20,7 +20,7 @@ A Google Drive-inspired ad asset manager with nested folders, image uploads, and
 
 ## Overview
 
-Dobby Ads is a file management web application built for creative teams to organize and manage ad assets. It supports nested folder hierarchies, drag-and-drop image uploads, breadcrumb navigation, and JWT-based authentication with full per-user data isolation.
+Dobby Ads is a full stack assignment project — a file management web application built for creative teams to organize and manage ad assets. It supports nested folder hierarchies, drag-and-drop image uploads, breadcrumb navigation, and JWT-based authentication with full per-user data isolation.
 
 ---
 
@@ -145,7 +145,7 @@ Located at `backend/.env`:
 - Recent uploads view (last 10 images)
 - Per-user data isolation (users only see their own files)
 - Grid and list view toggle
-- Responsive UI inspired by Google Drive
+- Responsive, clean UI
 
 ---
 
