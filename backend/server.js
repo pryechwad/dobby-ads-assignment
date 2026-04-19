@@ -8,7 +8,8 @@ connectDB();
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173', credentials: true }));
+const allowedOrigins = (process.env.CLIENT_URL || 'http://localhost:5173, https://dobby-ads-assignment-nine.vercel.app').split(',').map(o => o.trim());
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
