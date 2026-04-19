@@ -13,6 +13,8 @@ app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+app.get('/', (req, res) => res.json({ status: 'ok', message: 'Dobby Ads API is running' }));
+
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/folders', require('./routes/folders'));
 app.use('/api/images', require('./routes/images'));
